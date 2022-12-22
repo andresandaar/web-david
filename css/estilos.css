@@ -158,10 +158,11 @@ El contenido es recortado y no se muestran barras de posición. */
 	align-items: center;
 	transform: translate(110%);
 	transition: transform 0.2s ease-in-out;
-	div{
-		height: 400px;
-    width: 250px;
-	}
+
+}
+.container-imagen-light{
+	height: 400px;
+	width: 250px;
 }
 /* esto es una clase estra */
 .show {
