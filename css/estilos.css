@@ -158,18 +158,24 @@ El contenido es recortado y no se muestran barras de posición. */
 	align-items: center;
 	transform: translate(110%);
 	transition: transform 0.2s ease-in-out;
+	div{
+		height: 400px;
+    width: 250px;
+	}
 }
 /* esto es una clase estra */
 .show {
 	transform: translate(0);
 }
 .agregar-imagen {
-	object-fit: cover; /* object-fit indica cómo el contenido de un elemento reemplazado, por ejemplo un <img> o <video>, debería redimensionarse para ajustarse a su contenedor.
+	/* object-fit indica cómo el contenido de un elemento reemplazado, por ejemplo un <img> o <video>, debería redimensionarse para ajustarse a su contenedor.
    El contenido reemplazado se dimensiona para mantener su relación de aspecto mientras llena el cuadro de contenido completo del elemento. Si la relación de aspecto del objeto no coincide con la relación de aspecto de su caja, entonces el objeto se recortará para que se ajuste */
-	width: 35%;
 	border-radius: 20px;
 	transform: scale(0);
 	transition: transform.3s 0.2s;
+	object-fit: scale-down;
+    width: 100%;
+    height: 100%;
 }
 /* esto es una clase estra */
 .showImage {
